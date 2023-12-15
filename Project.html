@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project background color changer</title>
+    <!-- bootstrap4 link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;1,200;1,300&family=Dancing+Script:wght@600;700&family=Nanum+Gothic&family=Open+Sans:wght@500;600&family=Poppins:ital,wght@0,300;0,700;0,900;1,300;1,500&family=Quicksand:wght@300&family=Rajdhani:wght@700&family=Raleway:ital,wght@0,200;0,300;0,400;1,600&family=Roboto:wght@100&family=Sriracha&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .all-about {
+            text-align: center;
+
+
+        }
+
+        .text-h1 {
+            text-decoration: underline;
+            margin-bottom: 30px;
+        }
+
+        .project-img {
+            height: 50vw;
+            width: 70vw;
+            margin: 0 auto;
+            justify-content: center;
+            box-shadow: 0 0 25px rgba(0, 0, 0, .7);
+        }
+
+        .text-p {
+            padding-bottom: 50px;
+            margin: 20px 10px -20px 10px;
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        /* btn of color changer */
+
+        .cl-about {
+            justify-content: center;
+            margin-bottom: 20px;
+
+        }
+
+        .cl-about .cl-btn {
+            width: 32px;
+            height: 32px;
+            border: 2px solid gray;
+            display: inline-block;
+            border-radius: 50%;
+        }
+
+        #white {
+            background-color: #f3eaea;
+        }
+
+        #orange {
+            background-color: #dbc293;
+
+        }
+
+        #blue {
+            background-color: #676de5;
+
+        }
+
+        #black {
+            background-color: #bbbbbb;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- navbar section -->
+    <div class="resume">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div id="logo">
+                <span class="dote"> </span>
+                <div class="text">
+                    <a class="navbar-brand name active" href="index.html">Pankaj choudhary</a>
+                    <a class="navbar-brand developer" href="#">Devleoper</a>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="Resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Project.html">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- main section -->
+        <div class="all-about">
+            <div class="cl-about">
+                <h1 class="text-h1 clrc" style="color: #0e0e8d;">Change BG Color</h1>
+
+                <span class="cl-btn" id="white" onclick="BGchange('#fff')"></span>
+                <span class="cl-btn" id="orange" onclick="BGchange('#ffa500')"></span>
+                <span class="cl-btn" id="blue" onclick="BGchange('#0e0e8d')"></span>
+                <span class="cl-btn" id="black" onclick="BGchange('#000')"></span>
+            </div>
+            <img class="project-img" src="img/project-img-1.jpeg" alt="">
+
+            <p class="text-p clrc">
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ipsum, similique sed harum deserunt
+                quam
+                ratione, dolor optio ullam error laudantium qui eius nihil ipsa, commodi libero? Cupiditate, dolore
+                dolorem!
+                Ut, laboriosam? Quod at quos porro, unde veniam qui numquam. Necessitatibus laboriosam dolorem,
+                dignissimos
+                vel esse, quasi aut eum rem, ipsa exercitationem ab iusto dicta! Possimus nesciunt fugit tempore dolor!
+                Maxime maiores ullam minima necessitatibus praesentium, modi repellendus, explicabo a quam minus dolor
+                sit
+                delectus neque temporibus! Quaerat quibusdam illo sunt, cupiditate reiciendis, explicabo officiis natus
+                praesentium dolorem neque voluptate!
+                Ipsa quibusdam placeat soluta totam porro iste explicabo culpa nam a, suscipit exercitationem, tempore
+                reiciendis sint atque eligendi possimus libero blanditiis. Architecto neque eos commodi perferendis,
+                suscipit nisi amet ullam!
+                Ipsa, excepturi est dolores culpa molestiae expedita at doloribus assumenda maiores, repudiandae
+                deleniti
+                tenetur dicta sit obcaecati, veniam magni doloremque voluptate. Dicta cumque earum debitis in possimus
+                suscipit repellat similique.
+            </p>
+
+        </div>
+
+
+
+
+
+        <script>
+            function BGchange(color) {
+                document.body.style.backgroundColor = color;
+                let tex = document.getElementsByClassName("clrc");
+                }
+        </script>
+
+
+
+    </div>
+
+    <!-- bootstrap js link -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

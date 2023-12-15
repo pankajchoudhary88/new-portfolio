@@ -1,0 +1,242 @@
+*{    user-select: none;
+
+}
+
+#navigation{
+    width: 100%;
+    height: 80px;
+    
+
+}
+.resume{
+    background-color: rgba(227, 227, 227, 0.897) ;
+
+}
+#logo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+#logo .dote {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    background-color: orange;
+    border-radius: 50%;
+    margin-top: 8px;  
+}
+ 
+.navbar-brand{ color: black;
+    
+}
+.name{ font-size: 22px;
+    font-weight: 700;
+    margin-left: 5px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.developer{ font-size: 16px;
+    font-style: italic;
+    margin-left: -10px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+.developer:hover{
+    color: #000;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+/* ........... main section start.......... */
+#main{
+    width: 100%;
+    background-color: rgba(227, 227, 227, 0.897);
+    
+    position: absolute;
+    padding-bottom: 50px;
+}
+
+.top-list{
+    margin-top: 100px;
+    padding-bottom: 60px;
+    
+
+}
+.image img{
+     width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.top-list h1{
+    font-size: 100px;
+    font-weight: 500;
+    margin-top: 20px;
+
+}
+.top-list h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.top-list p{
+    font-size: 16px;
+    line-height: 1.6em;
+    font-style: italic;
+}
+.rpc {  display: flex;
+    position: absolute;
+    margin-top: 30px;
+   
+}
+.rpc .one{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.rpc .two{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.rpc .three{
+    background-color: rgb(55, 238, 244);
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.rpc a{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+
+
+}
+
+@media (max-width:993px)
+{
+    .image img{
+        width: 300px;
+       height: 300px;
+       border-radius: 50%;
+    }
+    
+    .top-list h1{
+        font-size: 80px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .top-list h3{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .top-list p{
+        font-size: 15px;
+        line-height: 1.6em;
+        font-style: italic;
+    }
+    .container{
+        padding-bottom: 20px;
+    }
+
+}
+
+@media (max-width:767px)
+{
+    .container{
+       text-align: center;
+       padding-bottom: 50px;
+
+       
+    }
+    .rpc{
+        margin-left: 16%;
+    }
+}
+@media (max-width:475px)
+{
+    .developer{
+     font-size: 0;
+    }
+    .rpc{
+        margin-left: 6%;
+    }
+}
+
+
+/* footer section */
+
+.hr{ width: 100%;
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+}
+.footer{
+    text-align: center;
+}
+.footer h1{
+    font-size: 25px;
+}
+footer p .nbr{
+    font-size: 20px;
+}
+footer p .email{ font-size: 18;
+
+}
+footer p .rights{ font-size: 18;
+
+}
+.smedia{
+    color: black;
+    margin: 5px;
+}
+
+
+@media (max-width:767px)
+{
+    .footer h1{
+        font-size: 22px;
+    }
+    footer p .nbr{
+        font-size: 15px;
+    }
+    footer p .email{ font-size: 12;
+    
+    }
+    footer p .rights{ font-size: 12;
+    
+    }}
+
+    @media (max-width:518px)
+{
+    .footer h1{
+        font-size: 14px;
+    }
+    footer p .nbr{
+        font-size: 11px;
+    }
+    footer p .email{ font-size: 8;
+    
+    }
+    footer p .rights{ font-size: 8;
+    
+    }
+    .smedia{
+        color: black;
+    }}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <!-- bootstrap4 link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;1,200;1,300&family=Dancing+Script:wght@600;700&family=Nanum+Gothic&family=Open+Sans:wght@500;600&family=Poppins:ital,wght@0,300;0,700;0,900;1,300;1,500&family=Quicksand:wght@300&family=Rajdhani:wght@700&family=Raleway:ital,wght@0,200;0,300;0,400;1,600&family=Roboto:wght@100&family=Sriracha&display=swap"
+        rel="stylesheet">
+
+    <!-- css start of resume -->
+    <style>
+        #main img {
+            width: 40vw;
+            height: 50vw;
+            margin-bottom: 0;
+        }
+
+        #main img {
+            transition-delay: 0.5s;
+            transition-duration: 1s;
+        }
+
+        #main img:hover {
+            width: 50vw;
+            height: 60vw;
+        }
+
+        .ongithub{
+            text-align: center;
+            justify-content: center;
+            margin-bottom: -100px;
+        }
+
+            .ongithub h1{ 
+            margin-top: 50px;
+            font-size: 25px;
+            font-weight: 600;
+
+            }
+            .ongithub .btn{
+                background-color: rgb(62, 62, 214);
+                font-weight: bold;
+                margin-top: 10px;
+                border: 1px solid gray;
+
+            }
+            .ongithub .btn a{
+                text-decoration: none;
+                color: #fff;
+                font-size: 18px;
+
+            }
+            @media(max-width: 500px){
+                .ongithub h1{
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+                .ongithub .btn a{
+                font-size: 15px;
+
+            }
+            }
+
+    </style>
+
+</head>
+
+<body>
+    <!-- navbar section -->
+    <div class="resume">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div id="logo">
+                <span class="dote"> </span>
+                <div class="text">
+                    <a class="navbar-brand name active" href="index.html">Pankaj choudhary</a>
+                    <a class="navbar-brand developer" href="#">Devleoper</a>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="Resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Project.html">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- main section -->
+        <div id="main">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <col-12 class="portfolio">
+                        <img src="img/resume.jpeg" alt="">
+                    </col-12>
+                    <div class=" col-12 ongithub">
+                        <h1>see my portfolio on github</h1>
+                        <button class="btn" type="button"><a href="https://pankajchoudhary88.github.io/portfolio-pankaj/">GitHub</a></button>
+                    </div>
+                </div>
+
+
+                <!-- footer section -->
+                <div class="hr">
+                    <hr>
+                </div>
+                <div class="row footer">
+                    <div class="col-3">
+                        <h1>Phone</h1>
+                        <p class="nbr">8947947473</p>
+                    </div>
+
+                    <div class="col-6 ">
+                        <h1>Email</h1>
+                        <p class="email">pankajchoudhary453<br>@gmail.com</p>
+                    </div>
+
+                    <div class="col-3">
+                        <h1>Follo Me</h1>
+                        <a class="smedia" href="#"><i class="fa fa-linkedin"></i></a>
+                        <a class="smedia" href="#"><i class="fa fa-instagram"></i></a>
+
+
+                    </div>
+                    <div class="col-12 rights">
+                        <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by
+                            <a href="#">Pankaj choudhary</a>.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- bootstrap js link -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
